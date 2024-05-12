@@ -1,0 +1,1 @@
+vector<int> matches = kmp(text, pattern); // 使用KMP算法查找匹配位置

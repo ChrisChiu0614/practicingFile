@@ -1,0 +1,10 @@
+#include <ncurses.h>
+
+int main() {
+    initscr(); // 初始化 ncurses
+    printw("Hello, ncurses!"); // 在終端中輸出訊息
+    refresh(); // 更新屏幕
+    getch(); // 等待用戶按鍵
+    endwin(); // 關閉 ncurses
+    return 0;
+}
