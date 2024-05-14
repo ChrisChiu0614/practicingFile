@@ -1,1 +1,7 @@
-vector<int> matches = kmp(text, pattern); // 使用KMP算法查找匹配位置
+    vector<int> arr = {1,2,3,4,5};
+    int sum = 0;
+
+    for(auto i = arr.cbegin(); i < arr.cend(); i++){
+        sum+=*i;
+    }
+    cout << "odd sum of arr : " << sum << endl;
